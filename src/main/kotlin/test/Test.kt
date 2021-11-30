@@ -1,6 +1,8 @@
 package test
 
+import extensions.list.*
 import extensions.mutablelist.*
+import extensions.array.*
 import kotlin.random.Random
 
 fun main() {
@@ -18,14 +20,18 @@ fun main() {
 
     fun getRandomLong(): Long = Random.nextLong()
 
-    var testCollection = (1..10).map { getRandomChar()  }.toMutableList()
+    var testCollection = (1..100000).map { getRandomChar()  }.toMutableList()
 
-    println("Ori: $testCollection")
-    println("Ord: ${testCollection.combSort()}")
-    println("Ord: ${testCollection.heapSort()}")
-    println("Ord: ${testCollection.mergeSort()}")
-    println("Ord: ${testCollection.bubbleSort()}")
-    println("Ord: ${testCollection.quickSort()}")
+    //println("Ori: ${testCollection}")
+    val init = System.currentTimeMillis()
+
+    val end = System.currentTimeMillis()
+    println("Time Passed: ${end-init}")
+    //println("Ord: ${testCollection.combSort()}")
+    //println("Ord: ${testCollection.heapSort()}")
+    //println("Ord: ${testCollection.mergeSort()}")
+    //println("Ord: ${testCollection.bubbleSort()}")
+    //println("Ord: ${testCollection.quickSort()}")
 
 
 
