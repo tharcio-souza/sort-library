@@ -1,6 +1,6 @@
 package base
 
-import utils.swapFunction
+import base.utils.swapFunction
 
 @PublishedApi
 internal fun <T : Comparable<T>> quickSort(input: Array<T>): Array<T> {

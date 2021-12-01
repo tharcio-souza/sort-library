@@ -2,6 +2,8 @@
 Uma biblioteca escrita em kotlin com a implementação de alguns algoritmos de ordenação, utilizando `generics` e `extension functions`.
 Funciona com as coleções `array`, `list` e `mutable list`.
 
+Para utilizar a lib em outros projetos, basta usar a task `publishToMavenLocal` incluída no Gradlee depois adicionar o repositorio `mavenLocal()` no projeto em questão.
+
 Já implementei os seguintes algoritmos:
 
 - Bubble Sort
@@ -11,6 +13,6 @@ Já implementei os seguintes algoritmos:
 - Merge Sort
 - Quick Sort
 
-Lembrando que esse é um projeto pessoal, amador e será melhorado com o tempo.
+Esse é um projeto pessoal, amador e será melhorado com o tempo.
 
 

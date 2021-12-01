@@ -1,6 +1,6 @@
 package base
 
-import utils.swapFunction
+import base.utils.swapFunction
 
 @PublishedApi
 internal fun <T : Comparable<T>> bubbleSortOptimized(input: Array<T>): Array<T> {
@@ -8,7 +8,7 @@ internal fun <T : Comparable<T>> bubbleSortOptimized(input: Array<T>): Array<T> 
     var lastIndex = input.size - 2
     do {
         changed = false
-        for (i in 0..lastIndex) {
+        for (i in 0 ..lastIndex) {
             if (input.elementAt(i) > input.elementAt(i + 1)) {
                 swapFunction(input, i, i + 1)
                 changed = true

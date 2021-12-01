@@ -1,6 +1,6 @@
 package base
 
-import utils.swapFunction
+import base.utils.swapFunction
 
 @PublishedApi
 internal fun <T : Comparable<T>> heapSort(input: Array<T>): Array<T> {
