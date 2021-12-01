@@ -2,7 +2,7 @@
 Uma biblioteca escrita em kotlin com a implementação de alguns algoritmos de ordenação, utilizando `generics` e `extension functions`.
 Funciona com as coleções `array`, `list` e `mutable list`.
 
-Para utilizar a lib em outros projetos, basta usar a task `publishToMavenLocal` incluída no Gradlee depois adicionar o repositorio `mavenLocal()` no projeto em questão.
+Para utilizar a lib em outros projetos, basta usar a task `publishToMavenLocal` incluída no Gradle e depois adicionar o repositorio `mavenLocal()` no projeto em questão.
 
 Já implementei os seguintes algoritmos:
 
