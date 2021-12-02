@@ -26,4 +26,8 @@ inline fun <reified T : Comparable<T>> Array<T>.quickSort(): Array<T> {
     return quickSort(this)
 }
 
+inline fun <reified T : Comparable<T>> Array<T>.shellSort(): Array<T> {
+    return shellSort(this)
+}
+
 

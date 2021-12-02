@@ -12,6 +12,7 @@ Já implementei os seguintes algoritmos:
 - Insertion Sort
 - Merge Sort
 - Quick Sort
+- Shell Sort
 
 Esse é um projeto pessoal, amador e será melhorado com o tempo.
 

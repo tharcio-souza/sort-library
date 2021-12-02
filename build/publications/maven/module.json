@@ -29,11 +29,11 @@
         {
           "name": "sort-library-1.1.jar",
           "url": "sort-library-1.1.jar",
-          "size": 12729,
-          "sha512": "409b23e86b99aeddf4b75529e42370c383a804d70390dfbb9eb29454e1854bbb3716da63307da7bd4287cf60c666e75aab6c31b7ea839ba8e51d16ab0e1b4ce3",
-          "sha256": "d441ed469aaac250b3266f0751b2b75adbe4796846ff591c404be54115adfd23",
-          "sha1": "318b865e1bdbf553d107778f2d497f51ce0c4b23",
-          "md5": "b1268f713cdba5d533bebf581256ec1d"
+          "size": 14107,
+          "sha512": "84279eaf02502aba1e6b2ec8ddc84933da2a3ca4321220d680dffa47b890b6500c384133410c294d8a0d7accf3a40cd4e52314503d991239c2c2f4ec55f3045a",
+          "sha256": "a57868252b19f15370ac1593350de3e56452dba658adb93e2d16f295014be683",
+          "sha1": "323da068b7e148f0c7a2176442c0dc6f4f824723",
+          "md5": "a01505ca27fdf79ca5539cab63db679a"
         }
       ]
     },
@@ -61,11 +61,11 @@
         {
           "name": "sort-library-1.1.jar",
           "url": "sort-library-1.1.jar",
-          "size": 12729,
-          "sha512": "409b23e86b99aeddf4b75529e42370c383a804d70390dfbb9eb29454e1854bbb3716da63307da7bd4287cf60c666e75aab6c31b7ea839ba8e51d16ab0e1b4ce3",
-          "sha256": "d441ed469aaac250b3266f0751b2b75adbe4796846ff591c404be54115adfd23",
-          "sha1": "318b865e1bdbf553d107778f2d497f51ce0c4b23",
-          "md5": "b1268f713cdba5d533bebf581256ec1d"
+          "size": 14107,
+          "sha512": "84279eaf02502aba1e6b2ec8ddc84933da2a3ca4321220d680dffa47b890b6500c384133410c294d8a0d7accf3a40cd4e52314503d991239c2c2f4ec55f3045a",
+          "sha256": "a57868252b19f15370ac1593350de3e56452dba658adb93e2d16f295014be683",
+          "sha1": "323da068b7e148f0c7a2176442c0dc6f4f824723",
+          "md5": "a01505ca27fdf79ca5539cab63db679a"
         }
       ]
     }

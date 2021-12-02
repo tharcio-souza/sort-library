@@ -25,3 +25,7 @@ inline fun <reified T : Comparable<T>> List<T>.bubbleSort(): List<T> {
 inline fun <reified T : Comparable<T>> List<T>.quickSort(): List<T> {
     return quickSort(this.toTypedArray<T>()).toList()
 }
+
+inline fun <reified T : Comparable<T>> List<T>.shellSort(): List<T> {
+    return shellSort(this.toTypedArray<T>()).toList()
+}
